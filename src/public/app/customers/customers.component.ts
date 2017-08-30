@@ -37,6 +37,15 @@ export class CustomersComponent implements OnInit {
     }
   }
 
+  //getCustomers() {
+  //  this.dataService.getCustomers()
+  //      .subscribe((customers: ICustomer[]) => {
+  //        this.customers = this.filteredCustomers = customers;
+  //      },
+  //      (err: any) => console.log(err),
+  //      () => console.log('getCustomers() retrieved customers'));
+  //}
+
   pageChanged(page: number) {
     this.getCustomersPage(page);
   }
